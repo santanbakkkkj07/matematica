@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="analisecombinatoria_1.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <title>Estudos</title>
+</head>
+
+<body>
+
+    <div id="pre-loader">
+
+    </div>
+
+
+    <div class="box1">
+        <div id="marginsides">
+            <h1 id="title01">Princípio Fundamental da Contagem</h1>
+
+        </div>
+    </div>
+    <div>
+        <div class="footer fixed">
+            <div id="footerimg">
+                <a href="analisecombinatoria.html">
+                    <div id="circlefooter">
+                        <img id="imgfooter" src="../images/backbutton.png" alt="">
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div id="marginsides">
+            <p id="text01">📚 CONCEITO:
+            <p id="text01"> O Princípio Fundamental da Contagem (PFC) estabelece que se um evento pode ocorrer de m
+                maneiras e outro evento independente pode ocorrer de n maneiras, então a sequência dos dois eventos pode
+                ocorrer de m × n maneiras. Para k eventos independentes, o número total de possibilidades é o produto
+                das possibilidades de cada evento.
+
+            <p id="text01"> 🧩 APLICAÇÕES</p>
+            <p id="text01">
+
+                Criação de senhas.
+
+                Combinações de refeições.
+
+                Formação de números com restrições. </p>
+
+            <p id="text01"> 🧩 EXERCÍCIOS</p>
+            <p id="text01">
+            <p id="text01"> Exercício 1.1
+            <p id="text01">
+
+                Um usuário deve criar uma senha de 4 dígitos para um sistema. Cada dígito pode ser qualquer número de 0
+                a 9. Quantas senhas diferentes são possíveis? </p>
+
+            <p id="text01"> Exercício 1.2
+            <p id="text01">
+
+                Um restaurante oferece um "prato feito" onde o cliente deve escolher:
+
+                1 tipo de arroz (branco ou integral)
+
+                1 tipo de feijão (preto ou carioca)
+
+                1 tipo de proteína (carne, frango, peixe ou vegetariana)
+
+                1 tipo de salada (alface, rúcula ou repolho)
+
+                Quantas combinações diferentes de prato um cliente pode montar?</p>
+
+            <p id="text01"> Exercício 1.3
+            <p id="text01">
+
+                Quantos números naturais de 3 algarismos distintos existem no sistema decimal? </p>
+
+            <p id="text01"> RESOLUÇÃO
+            <p id="text01">
+
+            <p id="text01"> Resolução 1.1
+            <p id="text01">
+
+                Cada dígito possui 10 possibilidades (0 a 9).
+                Pelo PFC: 10 × 10 × 10 × 10 = 10⁴ = 10.000 senhas </p>
+
+            <p id="text01"> Resolução 1.2
+            <p id="text01">
+
+                Arroz: 2 opções
+                Feijão: 2 opções
+                Proteína: 4 opções
+                Salada: 3 opções
+                Pelo PFC: 2 × 2 × 4 × 3 = 48 combinações</p>
+
+            <p id="text01"> Resolução 1.3
+            <p id="text01">
+
+                O primeiro algarismo não pode ser zero → 9 opções
+                O segundo algarismo: 9 opções (0-9, exceto o primeiro)
+                O terceiro algarismo: 8 opções (0-9, exceto os dois primeiros)
+                Pelo PFC: 9 × 9 × 8 = 648 números</p>
+            </p>
+        </div>
+
+        <script>
+            var loader = document.getElementById("pre-loader");
+
+            window.addEventListener("load", function () {
+                setTimeout(function () {
+                    loader.style.display = "none";
+                }, 3000);
+            });
+
+        </script>
+
+</body>
+
+</html>
